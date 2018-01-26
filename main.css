@@ -12,15 +12,10 @@ html {
     font-family: sans-serif;
 }
 
-.container {
+.page {
     margin: 0 auto;
     max-width: 1600px;
     width: 100%;
-}
-
-.col-1 {
-    margin: 0;
-    width: 8.33%;
 }
 
 .col-2 {
@@ -28,32 +23,37 @@ html {
     width: 16.67%;
 }
 
-.col-9 {
+.home{
+    width:80%;
+    float:right;
     margin: 0;
-    width: 75%;
+    text-decoration: none;
+    
 }
-
-.row {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.nav {
-   
-}
-
 .nav a{
     text-decoration: none;
     color: dimgrey;
 }
 
 .nav a:hover{
-    color: #000FFF;
+    color: #000FFF !important;
 }
 
 .nav li{
     list-style-type: none;
     text-align: right;
+}
+
+figure {
+    margin-left: 0;
+}
+
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:-webkit-any-link:hover {
+    color: red;
 }
