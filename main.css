@@ -6,16 +6,17 @@
 }
 
 @font-face {
-    font-family: "Graphik";
-    src: url(fonts/Graphik-Medium.otf);
-         /*url("/fonts/comprehension-dark.ttf") format("ttf");*/
+    font-family: "Neil";
+    src: url(https://files.cargocollective.com/c27001/SuisseIntl-Regular-WebS.woff);
 }
 
 html {
-    background-color: #E8FFFF;
+    background-color: black;
     margin: none;
     padding: none;
-    font-family: "Graphik", sans-serif;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: azure;
 }
 
 .page {
@@ -42,11 +43,11 @@ h2 {
 }
 .nav a{
     text-decoration: none;
-    color: dimgrey;
+    color: azure;
 }
 
 .nav a:hover{
-    color: #000FFF !important;
+    color: salmon !important;
 }
 
 .nav li{
@@ -60,7 +61,7 @@ figure {
 }
 
 a:-webkit-any-link {
-    color: black;
+    color: azure;
     cursor: pointer;
     text-decoration: none;
 }
