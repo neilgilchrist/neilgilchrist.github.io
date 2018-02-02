@@ -50,6 +50,7 @@ h2 {
     position:fixed;
     font-family:"Neil";
     font-weight: 40;
+    line-height: 1;
   
 }
 
@@ -65,7 +66,7 @@ h2 {
 .nav li{
     padding-top: 1em;
     list-style-type: none;
-    text-align: right;
+    text-align: left;
 }
 
 figure {
