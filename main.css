@@ -66,20 +66,14 @@ h2 {
 section.home {
     
 display: grid;
-    grid-template-rows: 2fr 2fr 2fr 2fr;
-    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2px 2px;
     
 }
 
-img {
+section img.long{
     grid-column: span 1;
-    grid-row: span 1;
-    
-}
-
-portrait.image{
-    grid-column: 0.5;
 }
 
 .title{
@@ -101,7 +95,7 @@ portrait.image{
 
 .nav a:hover{
     color: ghostwhite!important;
-    text-decoration: overline;
+    text-decoration: overline !important;
 }
 
 .nav ul {
@@ -132,5 +126,6 @@ a:-webkit-any-link {
 }
 
 a:-webkit-any-link:hover {
-    color: red;
+    color: ghostwhite;
+    text-decoration-line: underline;
 }
