@@ -20,28 +20,67 @@ html {
 }
 
 .page {
+    padding-top: 3em;
     margin: 0 auto;
     max-width: 1600px;
     width: 100%;
 }
 
+nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .col-2 {
+    padding-bottom: 2em;
     margin: 0;
-    width: 16.67%;
+    width: 80%;
+    font-weight: lighter;
+    float: right;
 }
 
 h2 {
    font-size: 50px; 
 }
 
+
+
 .home{
     width:80%;
     float:right;
     margin: 0;
     text-decoration: none; 
-    font-weight: 20;
+    font-weight: 5;
+    font-size: 30;
+    font-family: sans-serif;
 }
 
+.logo{
+    font-size:30px;
+    text-align: left;
+    position: fixed;
+    line-height: 30px;
+}
+
+section.home {
+    
+display: grid;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-gap: 2px 2px;
+    
+}
+
+img {
+    grid-column: span 1;
+    grid-row: span 1;
+    
+}
+
+portrait.image{
+    grid-column: 0.5;
+}
 
 .title{
     padding-right: 50px;
@@ -49,25 +88,32 @@ h2 {
     float: right;
     right: 0;
     position:fixed;
-    font-family:"Neil";
+    font-family:sans-serif;
     font-weight: 40;
     line-height: 1;
   
 }
 
 .nav a{
-    text-decoration: none;
+    text-decoration: overline;
     color: azure;
 }
 
 .nav a:hover{
-    color: salmon !important;
+    color: ghostwhite!important;
+    text-decoration: overline;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
 }
 
 .nav li{
-    padding-top: 1em;
     list-style-type: none;
     text-align: left;
+    display: inline;
+    margin-right: 5px;
 }
 
 figure {
@@ -75,15 +121,16 @@ figure {
 }
 
 a:-webkit-any-link {
+    font-weight: lighter;
     color: azure;
     cursor: pointer;
     text-decoration: none;
 }
 
-a:-webkit-any-link:hover {
-    color: red;
+.cap{
+    font-weight: 100;
 }
 
-nav {
- position: fixed;
+a:-webkit-any-link:hover {
+    color: red;
 }
