@@ -57,12 +57,12 @@ nav:after {
 
 .col-3{
     margin: 0;
-    width:5%;
+    width:30%;
 }
 
 .col-8{
     margin: 0;
-    width: 95%;
+    width: 70%;
 }
 
 h2 {
@@ -71,12 +71,16 @@ h2 {
 
 h3{
     margin: 5px;
-    font-weight: bold;
+    font-weight:500;
 }
 
 h4{
     margin: 5px;
     font-weight: 100;
+}
+
+h5{
+    color: red;
 }
 
 .smoke{
@@ -86,7 +90,23 @@ p{
     
     font-weight: normal;
     margin: 5px;
+    padding-bottom: 10px;
 
+}
+
+hr{
+    margin: 0;
+    background: white;
+    border: 0;
+    height: 1px;
+}
+
+.sub{
+    padding-left: 45px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 100;
+    color: ghostwhite;
 }
 
 
@@ -102,7 +122,7 @@ p{
 }
 
 .resume{
-    width:50%;
+    width:60%;
     float:left;
     margin: 0;
     text-decoration: none; 
@@ -130,7 +150,7 @@ section.resume {
   padding-left: 90px;  
 display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 2fr;
+    grid-template-columns: 3fr;
     grid-gap: 2px 2px;   
 }
 
