@@ -32,6 +32,21 @@ nav:after {
   clear: both;
 }
 
+.row{
+    width: 100%;
+    clear: both;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+
+.col-1{
+    margin: 0;
+    width: 0%;
+
+}
+
+
 .col-2 {
     padding-bottom: 2em;
     margin: 0;
@@ -40,8 +55,38 @@ nav:after {
     float: right;
 }
 
+.col-3{
+    margin: 0;
+    width:5%;
+}
+
+.col-8{
+    margin: 0;
+    width: 95%;
+}
+
 h2 {
    font-size: 50px; 
+}
+
+h3{
+    margin: 5px;
+    font-weight: bold;
+}
+
+h4{
+    margin: 5px;
+    font-weight: 100;
+}
+
+.smoke{
+    color: whitesmoke;
+}
+p{
+    
+    font-weight: normal;
+    margin: 5px;
+
 }
 
 
@@ -49,6 +94,16 @@ h2 {
 .home{
     width:80%;
     float:right;
+    margin: 0;
+    text-decoration: none; 
+    font-weight: 5;
+    font-size: 30;
+    font-family: sans-serif;
+}
+
+.resume{
+    width:50%;
+    float:left;
     margin: 0;
     text-decoration: none; 
     font-weight: 5;
@@ -68,9 +123,18 @@ section.home {
 display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 2px 2px;
-    
+    grid-gap: 2px 2px;   
 }
+
+section.resume {
+  padding-left: 90px;  
+display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr;
+    grid-gap: 2px 2px;   
+}
+
+
 
 section img.long{
     grid-column: span 1;
@@ -99,11 +163,13 @@ section img.long{
 }
 
 .nav ul {
-    padding: 0;
+    text-align: right;
+    padding: 4;
     margin: 0;
 }
 
 .nav li{
+    padding: 8px;
     list-style-type: none;
     text-align: left;
     display: inline;
