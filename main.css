@@ -72,6 +72,7 @@ h2 {
 h3{
     margin: 5px;
     font-weight:500;
+    color: white;
 }
 
 h4{
@@ -102,7 +103,7 @@ hr{
 }
 
 .sub{
-    padding-left: 45px;
+    padding-left: 85px;
     margin: 5px;
     font-size: 20px;
     font-weight: 100;
